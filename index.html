@@ -433,11 +433,11 @@
   <script>
     const FOLDER_LINKS = {
       // Cẩm nang tiết kiệm điện
-      tietkiem: "https://drive.google.com/drive/folders/1QVQDiTsxFUwxebDkpahVUg3ZFw4jDV5K?usp=sharing",
+      tietkiem: "tiet-kiem-dien.html",
       // Cẩm nang an toàn điện
-      antoan: "https://drive.google.com/drive/folders/1utMZHKBLcGWGC1r0pcp2ku6f-TtNDwLL?usp=sharing",
+      antoan: "an-toan-dien.html",
       // Cẩm nang điện mặt trời mái nhà
-      mattroi: "https://drive.google.com/drive/folders/1nL00abPiMwqk_E2_p8Xc3EbnR1nwpLs-?usp=sharing"
+      mattroi: "dien-mat-troi.html"
     };
 
     function openFolder(type) {
@@ -446,7 +446,7 @@
         alert("Chưa cập nhật link folder cho mục này. Hãy dán link Google Drive vào phần FOLDER_LINKS ở cuối file HTML.");
         return;
       }
-      window.open(link, "_blank", "noopener,noreferrer");
+      window.location.href = link;
     }
   </script>
 </body>
