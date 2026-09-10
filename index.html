@@ -1040,6 +1040,7 @@
   }
 }
 </style>
+<link rel="stylesheet" href="media.css">
 </head>
 <body>
 <main class="page">
@@ -1054,6 +1055,7 @@
 <h2>Tiết kiệm điện</h2>
 <p>Mẹo hay, hành động nhỏ – lợi ích lớn cho gia đình và cộng đồng.</p>
 <button class="open-btn" onclick="openFolder('tietkiem')" type="button">📖 Mở cẩm nang để xem</button>
+<a class="evn-media-link" href="tiet-kiem-dien.html#video-giong-doc">▶ Video và giọng đọc</a>
 </div>
 </article>
 <article class="card safety">
@@ -1062,6 +1064,7 @@
 <h2>An toàn điện</h2>
 <p>Trang bị kiến thức, chủ động phòng tránh rủi ro khi sử dụng điện.</p>
 <button class="open-btn" onclick="openFolder('antoan')" type="button">📖 Mở cẩm nang để xem</button>
+<a class="evn-media-link" href="an-toan-dien.html#video-giong-doc">▶ Video và giọng đọc</a>
 </div>
 </article>
 <article class="card solar">
@@ -1070,6 +1073,7 @@
 <h2>Điện mặt trời mái nhà</h2>
 <p>Tự sản xuất – tự tiêu thụ – lợi ích bền vững, phù hợp xu hướng xanh.</p>
 <button class="open-btn" onclick="openFolder('mattroi')" type="button">📖 Mở cẩm nang để xem</button>
+<a class="evn-media-link" href="dien-mat-troi.html#video-giong-doc">▶ Video và giọng đọc</a>
 </div>
 </article>
 </div>
@@ -1120,7 +1124,7 @@
     function openFolder(type) {
       const link = FOLDER_LINKS[type];
       if (!link) {
-        alert("Chưa cập nhật link folder cho mục này. Hãy dán link Google Drive vào phần FOLDER_LINKS ở cuối file HTML.");
+        alert("Nội dung đang được cập nhật. Vui lòng quay lại sau.");
         return;
       }
       window.location.href = link;

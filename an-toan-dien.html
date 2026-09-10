@@ -360,6 +360,7 @@
       .float-tools a { width: 42px; height: 42px; }
     }
   </style>
+<link rel="stylesheet" href="media.css">
 </head>
 <body id="top">
   <main class="page">
@@ -373,6 +374,13 @@
     <section class="hero">
       <span class="eyebrow">⚡ Cẩm nang tuyên truyền số</span>
       <h1>An toàn điện</h1>
+    </section>
+
+    <section id="video-giong-doc" class="evn-media" data-evn-media="antoan" aria-labelledby="media-heading">
+      <h2 id="media-heading">Video và giọng đọc</h2>
+      <p>Chọn xem video hoặc nghe bài tuyên truyền.</p>
+      <p class="evn-media-empty">Nội dung nghe và xem đang được cập nhật. Mời quý khách xem cẩm nang bên dưới.</p>
+      <div class="evn-media-list"></div>
     </section>
 
     <nav class="quick-nav-wrap" aria-label="Danh mục chương">
@@ -470,5 +478,7 @@
 
     sections.forEach(section => observer.observe(section));
   </script>
+<script src="media-config.js"></script>
+<script src="media-player.js"></script>
 </body>
 </html>
