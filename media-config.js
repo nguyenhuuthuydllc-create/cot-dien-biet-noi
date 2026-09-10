@@ -2,9 +2,9 @@
 window.EVN_MEDIA = {
   "tietkiem": [
     {
-      "title": "tuyên truyền",
-      "kind": "video",
-      "src": "media/chu-dong-nguon-dien.mp4"
+      "title": "Chủ động nguồn điện",
+      "kind": "youtube",
+      "src": "https://youtube.com/shorts/j8Yv3gUojJM"
     }
   ],
   "antoan": [],
