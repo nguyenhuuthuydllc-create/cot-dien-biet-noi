@@ -1,0 +1,4 @@
+Chép các tệp MP4 hoặc MP3 vào thư mục này.
+Ví dụ: an-toan-mua-mua.mp4
+Trong CAP-NHAT-VIDEO.html nhập đường dẫn: media/an-toan-mua-mua.mp4
+Đăng thư mục media cùng website để người dân có thể xem hoặc nghe.
