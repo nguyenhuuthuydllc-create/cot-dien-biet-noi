@@ -3,7 +3,7 @@ window.EVN_MEDIA = {
   "tietkiem": [
     {
       "title": "Video ca nhạc - Tắt đi cho tương lai xanh",
-      "kind": "video",
+      "kind": "youtube",
       "src": "https://youtu.be/rq4kam7NZC8"
     }
   ],
