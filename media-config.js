@@ -2,11 +2,28 @@
 window.EVN_MEDIA = {
   "tietkiem": [
     {
-      "title": "Chủ động nguồn điện",
-      "kind": "youtube",
-      "src": "https://youtube.com/shorts/j8Yv3gUojJM"
+      "title": "Video ca nhạc - Tắt đi cho tương lai xanh",
+      "kind": "video",
+      "src": "https://youtu.be/rq4kam7NZC8"
     }
   ],
-  "antoan": [],
-  "mattroi": []
+  "antoan": [
+    {
+      "title": "Lưu ý khi sửa chữ điện tại nhà",
+      "kind": "video",
+      "src": "media/khi-sua-dien-web.mp4"
+    }
+  ],
+  "mattroi": [
+    {
+      "title": "Lưu ý khi lắp đặt điện mặt trời tụ sản tự tiêu",
+      "kind": "video",
+      "src": "media/mtmn1-web.mp4"
+    },
+    {
+      "title": "Điện dư từ điện mặt trời mái nhà tự sản xuất, tự tiêu thụ được bán như thế nào",
+      "kind": "video",
+      "src": "media/mtmn2-web.mp4"
+    }
+  ]
 };
